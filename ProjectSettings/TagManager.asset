@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - CameraZone
+  - ship
+  - asteroid
+  - LogField
   layers:
   - Default
   - TransparentFX
