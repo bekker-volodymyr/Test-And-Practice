@@ -16,7 +16,7 @@ public class Messenger : MonoBehaviour
 
     void Start()
     {
-        Logger.Log("Logger have been injected to messanger");
+        Logger.Log("Logger have been injected to messenger");
     }
 
 }
