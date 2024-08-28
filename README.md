@@ -3,12 +3,14 @@
 <h2>Zenject</h2>
  <p>
   To learn how to work with the Zenject framework, I created a specific folder and scene. For my first exploration of the framework, I followed a YouTube tutorial (<a href="https://www.youtube.com/watch?v=gqEhy8nS3fk">link</a>). 
- </p>
- <p>
+ <br>
   As an example, I decided to create a logger interface with a Log(string message) method and two concrete loggers: DebugLogger, which writes data to the Debug console, and TMPLogger, which writes data to a TextMeshPro object with a specific tag.
- </p>
- <p>
-  The logger dependency is injected into a Messenger class, which logs a simple message in the Start method. I plan to extend this Zenject implementation as I dive deeper into the framework.f
+ <br>
+  The logger dependency is injected into a Messenger class, which logs a simple message in the Start method. 
+ <br>
+  I tested injection into fields, properties, and methods and learned the order in which these injections occur. I also experimented with injection using an Id.
+ <br>
+  I plan to extend this Zenject implementation as I dive deeper into the framework.
  </p>
  
 <h2> Cinemachine camera switch scene </h2>
