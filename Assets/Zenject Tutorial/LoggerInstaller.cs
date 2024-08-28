@@ -10,5 +10,12 @@ public class LoggerInstaller : MonoInstaller
             .To<TMPLogger>()
             .FromNew()
             .AsCached();
+
+        Container
+            .Bind<ILogger>()
+            .WithId("Debug")
+            .To<DebugLogger>()
+            .FromNew()
+            .AsCached();
     }
 }
