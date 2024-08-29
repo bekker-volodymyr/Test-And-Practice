@@ -4,7 +4,7 @@
  <p>
   To practice using DOTween, I followed <a href="https://www.youtube.com/watch?v=oZh2Hgzrrqk">this tutorial</a>. I created several animations for movement and rotation with looping and easing, using individual tweens and building sequences with the Append and Join methods. Demo below:
  </p>
- ![IMG_2167](https://github.com/user-attachments/assets/71b0d4f7-7414-44ef-a48b-4573aaca082d)
+ <img src="https://github.com/user-attachments/assets/71b0d4f7-7414-44ef-a48b-4573aaca082d" alt="Demo for DOTween animations">
 
 <h2>Zenject</h2>
  <p>
