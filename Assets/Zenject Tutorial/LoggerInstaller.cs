@@ -9,13 +9,13 @@ public class LoggerInstaller : MonoInstaller
             .Bind<ILogger>()
             .To<TMPLogger>()
             .FromNew()
-            .AsCached();
+            .AsSingle();
 
         Container
             .Bind<ILogger>()
             .WithId("Debug")
             .To<DebugLogger>()
             .FromNew()
-            .AsCached();
+            .AsSingle();
     }
 }
