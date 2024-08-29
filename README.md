@@ -1,5 +1,11 @@
 # Guide
 
+<h2>DOTween</h2>
+ <p>
+  To practice using DOTween, I followed <a href="https://www.youtube.com/watch?v=oZh2Hgzrrqk">this tutorial</a>. I created several animations for movement and rotation with looping and easing, using individual tweens and building sequences with the Append and Join methods. Demo below:
+ </p>
+ ![IMG_2167](https://github.com/user-attachments/assets/71b0d4f7-7414-44ef-a48b-4573aaca082d)
+
 <h2>Zenject</h2>
  <p>
   To learn how to work with the Zenject framework, I created a specific folder and scene. For my first exploration of the framework, I followed a YouTube tutorial (<a href="https://www.youtube.com/watch?v=gqEhy8nS3fk">link</a>). 
@@ -11,12 +17,4 @@
   I tested injection into fields, properties, and methods and learned the order in which these injections occur. I also experimented with injection using an Id.
  <br>
   I plan to extend this Zenject implementation as I dive deeper into the framework.
- </p>
- 
-<h2> Cinemachine camera switch scene </h2>
- <p>
-  This scene I use for experiment with cinemachine system and switching virtual cameras before adding it to my university project.
-  Scripts taken from <a href="https://youtu.be/X_vK66w3GJk?si=jwSCm0aoFO69h3KA"> this tutorial </a>
-  Demo
-  ![2024-03-14 22-02-10](https://github.com/bekker-volodymyr/PracticingProject/assets/118624414/e35018e7-11ff-4580-8689-e85d216af84f)
  </p>
