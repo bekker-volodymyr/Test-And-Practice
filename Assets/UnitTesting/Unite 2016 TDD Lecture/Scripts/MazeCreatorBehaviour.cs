@@ -15,9 +15,6 @@ namespace PracticeProject.UnitTesting.TDDLecture
         [SerializeField]
         int _numberOfCellsEast;
 
-        //[SerializeField]
-        //XoroshireRandomNumberGeneratorBehaviour _rng;
-
         List<MazeCellBehaviour> _mazeCells;
         MazeShaper _mazeShaper;
 
@@ -98,7 +95,6 @@ namespace PracticeProject.UnitTesting.TDDLecture
         public void RemoveRandomWallFromCell(int cellIndex)
         {
             // TODO: if wall is already gone, try again?
-            // ulong randomRoll = _rng.RandomDice(4, 0);
 
             int randomRoll = Random.RandomRange(0, 4);
 
