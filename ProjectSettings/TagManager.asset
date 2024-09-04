@@ -8,6 +8,8 @@ TagManager:
   - ship
   - asteroid
   - LogField
+  - Hazard
+  - Reward
   layers:
   - Default
   - TransparentFX
