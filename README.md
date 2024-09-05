@@ -6,7 +6,7 @@
   For practice with <b>Unit Testing</b>, I followed a lecture on <b>Test-Driven Development (TDD)</b>. Initially, I copied the tests from the lecture and then wrote the functionality to pass those tests on my own. However, at times, I used code from the example repository to focus more on the TDD workflow and test writing, as that was my primary goal for this lesson.
  </p>
  <p>
-  The most important lesson I learned from this lecture was the practice of separating the parts that need to be tested from MonoBehaviour classes, allowing them to be tested in Edit Mode. In my opinion, this approach makes testing much easier and faster. I also discovered the TestCase attribute, which helps create multiple tests more quickly and conveniently.
+  The most important lesson I learned from this lecture was the practice of separating the parts that need to be tested from MonoBehaviour classes, allowing them to be tested in Edit Mode. In my opinion, this approach makes testing much easier and faster. I discovered that this called <b>Plain Old Class Object (POCO)</b> and <b>Humble Object Pattern</b>. I also discovered the TestCase attribute, which helps create multiple tests more quickly and conveniently.
  </p>
  
  <img src="https://github.com/user-attachments/assets/72e0ed68-b6b8-4673-9ff0-fcdbd18ad059" alt="demo">
