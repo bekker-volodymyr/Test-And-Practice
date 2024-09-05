@@ -10,6 +10,7 @@ TagManager:
   - LogField
   - Hazard
   - Reward
+  - Obj
   layers:
   - Default
   - TransparentFX
