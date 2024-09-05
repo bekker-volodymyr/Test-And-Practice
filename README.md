@@ -18,6 +18,34 @@
   <li><a href="https://catlikecoding.com/unity/tutorials/maze/">Maze lesson</a></li>
  </ul>
 
+<h3>More practice with Unit Testing</h3>
+ <p>
+  Another exesice just to consolidate knowledge of <b>Unit Testing</b> using <b>Humble Objects</b> and <b>Substitution</b> in Unity.
+ </p>
+ 
+ ```csharp
+  public class TrapTest
+  {
+    [TestCase(TrapTarget.Player, true, true)]
+    [TestCase(TrapTarget.NPC, true, false)]
+    [TestCase(TrapTarget.Player, false, false)]
+    [TestCase(TrapTarget.NPC, false, true)]
+    public void TrapReducesHealthOnCollision(TrapTarget target, bool isPlayer, bool isReduceExpected)
+    {
+        // ARRANGE
+        Trap trap = new Trap();
+        ICharacter character = Substitute.For<ICharacter>();
+        character.IsPlayer.Returns(isPlayer);
+
+        // ACT
+        float oldHealth = character.Health;
+        trap.HandleCollision(character, target);
+
+        // ASSERT
+        Assert.IsTrue((character.Health < oldHealth) == isReduceExpected);
+    }
+  }
+```
 <h3>First Steps</h3>
  <p>
   To learn how to use <b>Unit Tests</b>, I followed <a href="https://youtu.be/qCghhGLUa-Y?si=S68QxovtaIDjPuL8">tutorial</a> by Jason Weimann on YouTube. 
