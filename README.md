@@ -20,7 +20,7 @@
 
 <h3>More practice with Unit Testing</h3>
  <p>
-  Another exesice just to consolidate knowledge of <b>Unit Testing</b> using <b>Humble Objects</b> and <b>Substitution</b> in Unity.
+  Another exercise just to consolidate knowledge of <b>Unit Testing</b> using <b>Humble Objects</b> and <b>Substitution</b> in Unity.
  </p>
  
  ```csharp
@@ -46,6 +46,27 @@
     }
   }
 ```
+<p>
+ Another example was created to practice specifically in <b>Play Mode Testing</b>. In this example, I created a class that spawns a simple object from a prefab within a configurable radius and rate. Then, I wrote some tests for this functionality. I discovered that using a method with the <b>TearDown</b> attribute is necessary for cleaning up the scene where Play Mode tests are running.
+ </p>
+
+```csharp
+[TearDown]
+public void AfterEveryTest()
+{
+    foreach (var gameObj in GameObject.FindGameObjectsWithTag("Obj"))
+    {
+        Object.Destroy(gameObj);
+    }
+    foreach (var gameObj in Object.FindObjectsOfType<ObjectSpawner>())
+    {
+        Object.Destroy(gameObj);
+    }
+}
+```
+
+ <img src="https://github.com/user-attachments/assets/1ac5331a-65f4-4c6f-8a33-002282305f67" width="400px" alt="demo">
+
 <h3>First Steps</h3>
  <p>
   To learn how to use <b>Unit Tests</b>, I followed <a href="https://youtu.be/qCghhGLUa-Y?si=S68QxovtaIDjPuL8">tutorial</a> by Jason Weimann on YouTube. 
