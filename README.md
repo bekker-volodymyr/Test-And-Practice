@@ -1,5 +1,20 @@
 # Guide
 
+<h2>Shaders</h2>
+<h3>First Shaders</h3>
+<p>
+ For learning Unity workflow with <b>Shader Graph</b> I choose this <a href="https://www.youtube.com/watch?v=VsUK9K6UbY4&list=PLzDRvYVwl53tpvp6CP6e-Mrl6dmxs9uhx&index=1">playlist</a> by CodeMonkey.
+ At first I created a simple shader that allows to adjust color and saturation to the material's main texture.
+</p>
+<br>
+<img src="https://github.com/user-attachments/assets/d87e9b9a-f0f1-4dd4-a8e3-2d7798a8013e" width="400px">
+<img src="https://github.com/user-attachments/assets/5842ac04-d959-4b09-8b55-dac0f43b4049" width="500px">
+<p>
+ I also checked out creation of shader for transition from Hades.
+</p>
+<br>
+<img src="https://github.com/user-attachments/assets/ad1e591f-ce70-430b-b645-2daca956fd91" width="500px">
+
 <h2>Unit Testing & TDD</h2>
 <h3> <a href="https://youtu.be/GIJptHunxow?si=LtBUpGJV6ZTYOt6n"> Unite 2016 TDD Lecture</a> </h3>
  <p>
